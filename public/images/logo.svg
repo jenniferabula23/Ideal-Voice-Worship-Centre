@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Ideal Voice Worship Centre">
+  <defs>
+    <clipPath id="inner">
+      <circle cx="100" cy="100" r="62"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer thin dark ring -->
+  <circle cx="100" cy="100" r="98" fill="#5c0e11"/>
+
+  <!-- Split color band: gold left, red right -->
+  <path d="M100 6 A94 94 0 0 0 100 194 Z" fill="#fbb034"/>
+  <path d="M100 6 A94 94 0 0 1 100 194 Z" fill="#d32027"/>
+
+  <!-- White separators at top/bottom of band -->
+  <path d="M96 6 L104 6 L104 34 L96 34 Z" fill="#ffffff"/>
+  <path d="M96 166 L104 166 L104 194 L96 194 Z" fill="#ffffff"/>
+
+  <!-- Inner white field -->
+  <circle cx="100" cy="100" r="66" fill="#ffffff"/>
+  <circle cx="100" cy="100" r="66" fill="none" stroke="#2a1a1a" stroke-width="2.5"/>
+
+  <!-- World map (simplified continents) in brand red -->
+  <g fill="#d32027" clip-path="url(#inner)">
+    <!-- Americas -->
+    <path d="M48 78c4-8 12-12 18-10 3 8 2 18-1 26-2 6-1 12 2 16-6 2-12-2-14-10-3-8-8-14-5-22z"/>
+    <path d="M58 118c3 8 6 16 4 24-4 2-10 0-12-6-3-8-1-16 2-22 2-2 4-2 6 4z"/>
+    <!-- Europe / Africa -->
+    <path d="M98 72c8-4 16-2 20 4 2 10-2 18-6 24-2 8 0 16 4 22-8 4-16 2-20-4-6-10-4-22 0-30 0-6 0-12 2-16z"/>
+    <path d="M108 118c4 10 6 20 2 28-6 2-12-2-14-8-4-10-2-20 2-28 4-2 6-2 10 8z"/>
+    <!-- Asia / Australia -->
+    <path d="M126 78c10-2 20 2 24 10 2 8-2 14-8 18-4 6-2 12 2 16-8 4-18 0-22-8-6-10-4-22 0-28 0-4 2-8 4-8z"/>
+    <path d="M142 128c6 2 10 8 8 14-4 2-10 0-12-4-4-4-2-10 4-10z"/>
+  </g>
+
+  <!-- Crest / flame emblem above map -->
+  <g transform="translate(100 58)">
+    <circle r="16" fill="#d32027"/>
+    <circle r="16" fill="none" stroke="#8f5e12" stroke-width="1.5"/>
+    <!-- Stylized raised-hands / flame -->
+    <path d="M0 6c-4-6-3-12 0-16 3 4 4 10 0 16z" fill="#ffffff"/>
+    <path d="M-6 4c-2-5-1-9 2-12 1 4 0 8-2 12z" fill="#ffffff" opacity="0.9"/>
+    <path d="M6 4c2-5 1-9-2-12-1 4 0 8 2 12z" fill="#ffffff" opacity="0.9"/>
+  </g>
+</svg>
